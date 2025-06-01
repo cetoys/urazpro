@@ -1,0 +1,6 @@
+
+{
+  "name": "urazpro AI E-Commerce Platform",
+  "description": "A React-based platform demonstrating AI-powered content ideation, a segmented B2B/B2C user experience, and an AI chatbot, inspired by the Integrated Content Marketing & E-Commerce Platform Plan. This application uses the Gemini API for its AI features for urazpro.",
+  "requestFramePermissions": []
+}

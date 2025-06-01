@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>urazpro AI E-Commerce</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              light: '#FFD6A5',
+              DEFAULT: '#FFAB76',
+              dark: '#FF7D54',
+            },
+            secondary: {
+              light: '#A2D2FF',
+              DEFAULT: '#74BDCB',
+              dark: '#52796F',
+            },
+            accent: '#FF6B6B',
+            neutral: {
+              100: '#F8F9FA',
+              200: '#E9ECEF',
+              300: '#DEE2E6',
+              700: '#495057',
+              800: '#343A40',
+              900: '#212529',
+            }
+          }
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.0.1",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0"
+  }
+}
+</script>
+</head>
+<body class="bg-neutral-100">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
